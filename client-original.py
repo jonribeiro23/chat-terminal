@@ -5,6 +5,7 @@ import threading
 nickname = input("Choose your nickname: ")
 
 # Connecting To Server
+# socket.gethostname()
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.settimeout(None)
 # client.connect(('jonribeiro23.pythonanywhere.com', 5556))
